@@ -16,12 +16,15 @@ while (ok == false) {
   ilDni, dzisDzien;
 
 //sprawdzamy czy uzytkownik wprowadzil poprawne znaczenia, jezeli nie zmuszamy na wprowadzenie od nowa
-  if ( (ilDni == 28 || ilDni == 30 || ilDni == 31) && (ilDni >= dzisDzien) && ilDni > 0 && ilDni < 31 && dzisDzien > 0 && dzisDzien < 31){
+  if ( ((ilDni == 28 || ilDni == 30 || ilDni == 31) && (ilDni >= dzisDzien)) && ilDni > 0 && ilDni < 31 && dzisDzien > 0 && dzisDzien < 31){
     ok = true
   }
 }
 
 //przekazujemy dla funkcji dane od uzytkownika i zachowujemy wynik w nowej zmiennej
 zostDniDoKonca = zostDni(ilDni, dzisDzien);
+
+//drukujemy ilosc dni do konca miesiaca
+print zostDniDoKonca
 
 ```
