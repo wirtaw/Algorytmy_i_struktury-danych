@@ -13,7 +13,7 @@ ok = false
 
 // pytamy o ilosc dni w miesiacu i dzisiejszy dzien
 while (ok == false) {
-  ilDni, dzisDzien;
+podaj ilDni, dzisDzien;
 
 //sprawdzamy czy uzytkownik wprowadzil poprawne znaczenia, jezeli nie zmuszamy na wprowadzenie od nowa
   if ( ((ilDni == 28 || ilDni == 30 || ilDni == 31) && (ilDni >= dzisDzien)) && ilDni > 0 && ilDni < 31 && dzisDzien > 0 && dzisDzien < 31){
