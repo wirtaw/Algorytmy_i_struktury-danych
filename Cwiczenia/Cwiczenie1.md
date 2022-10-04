@@ -8,19 +8,20 @@ zostDni(ilDni, dzisDzien) {
   return (ilDni - dzisDzien)
 }
 
-// zmienna potwierdzajaca ze zmienne sa w pozadku
-ok = true
-
+// zmienna wskazująca że zmienne nie są w pożądku
+ok = false
 
 // pytamy o ilosc dni w miesiacu i dzisiejszy dzien
-ilDni, dzisDzien;
+while (ok == false) {
+  ilDni, dzisDzien;
 
-
+//sprawdzamy czy uzytkownik wprowadzil poprawne znaczenia, jezeli nie zmuszamy na wprowadzenie od nowa
+  if ( (ilDni == 28 || ilDni == 30 || ilDni == 31) && (ilDni >= dzisDzien) && ilDni > 0 && ilDni < 31 && dzisDzien > 0 && dzisDzien < 31){
+    ok = true
+  }
+}
 
 //przekazujemy dla funkcji dane od uzytkownika i zachowujemy wynik w nowej zmiennej
-if (ok == true) {
 zostDniDoKonca = zostDni(ilDni, dzisDzien);
-}
-//prosimy o podanie nowych zmiennych
-else (
+
 ```
