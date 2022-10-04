@@ -1,5 +1,5 @@
 # Zadanie 2
-\\ Nieskończone, w trakcie wykonania!!!
+Nieskończone, w trakcie wykonania!!!
 
 
 Napisac program ktory oblicza jakiego roku urodzenia i jaki teraz jest rok. Wyprowadza ile lat uzytkowniku.
