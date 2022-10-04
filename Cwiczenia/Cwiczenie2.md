@@ -3,13 +3,23 @@
 Napisac program ktory oblicza jakiego roku urodzenia i jaki teraz jest rok. Wyprowadza ile lat uzytkowniku.
 
 ```
-\\ zmienne przechowujace rok urodzenia oraz teraz rok
-rokUrodzenia
-terazRok
+\\tworzymy funkcje ktora bedzie obliczac ilosc lat
 
 lat_Uzytkowniku(terazRok, rokUrodzenia) {
-  lat_Uzytkowniku = terazRok - rokUrodzenia
-  return lat_Uzytkowniku 
+  illat_Uzytkowniku = terazRok - rokUrodzenia
+  return illat_Uzytkowniku
 }
+
+
+\\ zmienne przechowujace rok urodzenia,terazniejszy rok oraz ilosc lat uzytkownika
+
+rokUrodzenia, terazRok, lat_Uzytkowniku
+
+
+\\wywolujemy funkcje i zachowujemy rezultat z return do zmiennej
+
+illat_Uzytkowniku = lat_uzytkowniku(terazRok, rokUrodzenia)
+
+
 
 ```
