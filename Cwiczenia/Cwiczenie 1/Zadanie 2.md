@@ -15,13 +15,22 @@ lat_Uzytkowniku(terazRok, rokUrodzenia) {
 
 \\ zmienne przechowujace rok urodzenia,terazniejszy rok oraz ilosc lat uzytkownika
 
-rokUrodzenia, terazRok, lat_Uzytkowniku
+rokUrodzenia, terazRok = /* wczytujemy dzisiejsza date */, lat_Uzytkowniku;
 
+\\ pytamy o rokUrodzenia
+podaj rokUrodzenia;
+
+\\pytamy czy urodzil sie przed czy po terazniejszym miesiacu i dniu
+podaj jezeliPo = true/false;
 
 \\wywolujemy funkcje i zachowujemy rezultat z return do zmiennej
-
 illat_Uzytkowniku = lat_uzytkowniku(terazRok, rokUrodzenia)
 
+if (jezeliPo == false) {
+	illat_Uzytkowniku = illat_Uzytkowniku - 1;
+}
 
+drukujemy:
+	illat_Uzytkowniku;
 
 ```
