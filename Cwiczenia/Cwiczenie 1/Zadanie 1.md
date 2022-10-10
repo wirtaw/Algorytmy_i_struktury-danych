@@ -3,28 +3,18 @@
 Napisac program ktora pyta ilsosc dni w miesiacu i dzisieszy dzien. Wyprowadza ile zostalo dni do konca miesiaca.
 
 ```
-//funkcja obiczajaca ile zostalo dni do konca miesiaca
-zostDni(ilDni, dzisDzien) {
+zostDni(ilDni, dzisDzien) { // funkcja obiczajaca ile zostalo dni do konca miesiaca
   return (ilDni - dzisDzien)
 }
 
-// zmienna wskazująca że zmienne nie są w pożądku
-ok = false
+podaj ilDni, dzisDzien; // pytamy o ilosc dni w miesiacu i dzisiejszy dzien
 
-// pytamy o ilosc dni w miesiacu i dzisiejszy dzien
-while (ok == false) {
-podaj ilDni, dzisDzien;
-
-//sprawdzamy czy uzytkownik wprowadzil poprawne znaczenia, jezeli nie zmuszamy na wprowadzenie od nowa
-  if ( ((ilDni == 28 || ilDni == 30 || ilDni == 31) && (ilDni >= dzisDzien)) && ilDni > 0 && ilDni < 31 && dzisDzien > 0 && dzisDzien < 31){
-    ok = true
-  }
+// sprawdzamy czy uzytkownik wprowadzil poprawne znaczenie
+if (ilDni > 27 && ilDni < 32) && ilDni > 0 && ilDni < 32 && dzisDzien > 0 && dzisDzien < 31) {
+  zostDniDoKonca = zostDni(ilDni, dzisDzien);
 }
 
-//przekazujemy dla funkcji dane od uzytkownika i zachowujemy wynik w nowej zmiennej
-zostDniDoKonca = zostDni(ilDni, dzisDzien);
 
-//drukujemy ilosc dni do konca miesiaca
-print zostDniDoKonca
+print zostDniDoKonca; // drukujemy ilosc dni do konca miesiaca
 
 ```
