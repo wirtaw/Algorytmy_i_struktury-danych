@@ -7,10 +7,11 @@ x = 99; liczbyArmstr[]; j = 0;
 
 while (x < 10000) {
   if (x < 1000){
-      // rozdzielamy liczbe w zmiennej x po jednej cyferce:
-        x1, x2, x3
-      // sprawdzamy czy liczba jest liczba Armstronga
-        if (x == x1 * x1 * x1 + x2 * x2 * x2 + x3 * x3 * x3){
+      
+        x1, x2, x3 // rozdzielamy liczbe w zmiennej x po jednej cyferce
+        
+      
+        if (x == x1 * x1 * x1 + x2 * x2 * x2 + x3 * x3 * x3) { // sprawdzamy czy liczba jest liczba Armstronga
             liczbyArmstr[j] = x;
             j++;
         }    
