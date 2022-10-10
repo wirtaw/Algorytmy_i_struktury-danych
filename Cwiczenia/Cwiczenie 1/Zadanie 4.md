@@ -1,5 +1,7 @@
 # Zadanie 4
-Liczba naturalna z n cyfr jest liczbą Armstronga, jeżeli suma jego liczb w pierwiastku n, jest równa samej liczbie. Naprzykład, 153 = 1^3 + 5^3 + 3^3. Napisać program otrzymania wszytkich liczb Armstronga z liczb 3 i 4 cyfrowych.
+Liczba naturalna z n cyfr jest liczbą Armstronga, jeżeli suma jego liczb w pierwiastku n, jest równa samej liczbie.
+Naprzykład: 153 = 1^3 + 5^3 + 3^3.
+Napisać program otrzymania wszytkich liczb Armstronga z liczb 3 i 4 cyfrowych.
 ```
 x = 99; liczbyArmstr[]; j = 0;
 
