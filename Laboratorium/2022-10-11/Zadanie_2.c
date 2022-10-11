@@ -9,7 +9,6 @@ float x = 0;
 float x_do = 0;
 float x_od = 0;
 float krokh = 0;
-int n=0;
 float y;
 
 int main(void) {
