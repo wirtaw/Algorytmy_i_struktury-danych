@@ -1,6 +1,6 @@
 // Valdemar Kudžma
 // Laboratorium 1.
-// Obliczyć funkcja y = ax^2, gdy a - stałe, x jest wybierany z tablicy X(n), wyniki funkcji zapisywać Y(n)
+// Obliczenie sumy, ilości i mnożenia elementów tablicy
 // Data 2022-10-11
 
 #include <stdio.h>
@@ -47,6 +47,26 @@ int main(){
     y[i] = a * x[i] * x[i];
     printf("y = %0.2f\n", y[i]);
   }
+  
+  float sumax = 0;
+  float sumay = 0;
+  int ilosc = 0;
+  float mnozx = 1;
+  float mnozy = 1;
+  
+    for(int i = 0; i < n; i++) {
+      sumax += x[i];
+      sumay += y[i];
+      ilosc++;
+      mnozx *= x[i];
+      mnozy *= y[i];  
+     }
+
+  printf("\nSuma tablicy X(n): %0.2f\n", sumax);
+  printf("Suma tablicy Y(n): %0.2f\n", sumay);
+  printf("Ilość elementów tablicy: %d\n", ilosc);
+  printf("Mnożenie elementów tablicy X(n): %0.2f\n", mnozx);
+  printf("Mnożenie elementów tablicy Y(n): %0.2f\n", mnozy);
   
   return 0;
 }
