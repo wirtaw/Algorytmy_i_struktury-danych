@@ -4,9 +4,10 @@
 
 #include <stdio.h>
 
-float a = 0;
+float a;
 float x = 0;
 float x_do = 0;
+float x_od = 0;
 float krokh = 0;
 int n=0;
 float y;
@@ -16,20 +17,29 @@ int main(void) {
   
   printf("Podaj stala a:\n");
   scanf("%f", &a);
-  printf("%f\n", a);
+
+printf("\nPodaj od ilu zwiekszac x:\n");
+  scanf("%f", &x_od);
   
-  printf("Podaj do ilu zwiekszac x:\n");
+  printf("\nPodaj do ilu zwiekszac x:\n");
   scanf("%f", &x_do);
-  printf("X bedziemy zwiekszac do: %f\n", x_do);
-
-  printf("Podaj krok zwiekszenia x:\n");
+  
+  printf("\nPodaj krok zwiekszenia x:\n");
   scanf("%f", &krokh);
-  printf("Znaczenie kroku zwiekszenia x: %f\n", krokh);
 
-  while(x < x_do) {
-    y = a * x * x;
-    printf("\nZnaczenie y = %f\na = %f\nx = %f\n", y, a, x);
-    x += krokh;
-  }
+  printf("\nZnaczenie stalej a: %f", a);
+  printf("\nX bedziemy zwiekszac od: %f", x_od);
+  printf("\nX bedziemy zwiekszac do: %f\n", x_do);
+  printf("Znaczenie kroku zwiekszenia x: %f\n", krokh);
+  
+  if (x_do > x_od){
+    x = x_od;
+    while(x < x_do) {
+      y = a * x * x;
+      printf("\ny = %f\nx = %f\n", y, x);
+      x += krokh;
+    }
+  } 
+  
   return 0;
 }
