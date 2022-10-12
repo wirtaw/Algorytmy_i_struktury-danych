@@ -5,11 +5,10 @@
 
 #include <stdio.h>
 
-float a;
-float y;
-int n;
-
 int main(){
+  
+float a;
+int n;
   
   do {
     printf("Podaj stala a:\n");
