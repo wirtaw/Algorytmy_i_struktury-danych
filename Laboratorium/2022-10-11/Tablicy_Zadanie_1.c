@@ -3,11 +3,12 @@
 // Data 2022-10-11
 
 #include <stdio.h>
-float x = 2;
-float a = 1;
-float y = 0;
 
 int main(void) {
+  
+float x = 2;
+float a = 1;
+float y = 0;  
   
   while(x<7){
     y = a*x*x;
@@ -15,5 +16,6 @@ int main(void) {
     x += 2;
     a += 0.5;
   }
+  
   return 0;
 }
