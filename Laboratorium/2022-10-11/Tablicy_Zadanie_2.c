@@ -4,14 +4,14 @@
 
 #include <stdio.h>
 
+int main(void) {
+  
 float a;
 float x = 0;
 float x_do = 0;
 float x_od = 0;
 float krokh = 0;
-float y;
-
-int main(void) {
+float y;  
 
   do {
   printf("Podaj stala a:\n"); // if (a != )
