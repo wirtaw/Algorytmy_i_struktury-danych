@@ -79,7 +79,9 @@ int main(){
   printf("Srednia Y(n): %0.2f\n", sredniay);
 
   float maksx = 0;
+  float minx = x[0];
   float maksy = 0;
+  float miny = y[0]; 
    
   for (int i = 0; i < n; i++){
     if (maksx < x[i]){
@@ -88,10 +90,18 @@ int main(){
     if (maksy < y[i]){
       maksy = y[i];
     }
+    if (minx > x[i]){
+      minx = x[i];
+    }
+    if (miny > y[i]){
+      miny = y[i];
+    }
   }
 
   printf("\nMaksymalne znaczenie X(n): %0.2f\n", maksx);
   printf("Maksymalne znaczenie Y(n): %0.2f\n", maksy);
+  printf("Minimalne znaczenie X(n): %0.2f\n", minx);
+  printf("Minimalne znaczenie Y(n): %0.2f\n", miny);
   
   return 0;
 }
