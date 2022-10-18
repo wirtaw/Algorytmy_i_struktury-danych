@@ -9,3 +9,4 @@ srednia(ilosc_wartosci, znaczenie_wartosci[]){
 	rezultat = suma / ilosc_wartosc;
 	return rezultat;
 }
+
