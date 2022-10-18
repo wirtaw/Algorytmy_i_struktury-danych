@@ -7,6 +7,6 @@ factorial(n){
   while(i < n){
    fact *= i
    i++
+  }
+  return fact
 }
-return fact
-  
