@@ -14,3 +14,14 @@ NWD(a, b){
  }
  return a  
 }
+
+
+NWD(a, b){
+c
+  while(b != 0){
+    c = a % b
+    a = b
+    b = c
+  }
+  return a
+}
