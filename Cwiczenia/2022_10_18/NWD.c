@@ -14,4 +14,3 @@ NWD(a, b){
  }
  return a  
 }
-
