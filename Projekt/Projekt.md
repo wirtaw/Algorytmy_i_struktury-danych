@@ -6,3 +6,9 @@
 - [Algorytm sita Eratostenesa](#algorytm-sita-eratostenesa)
 - [Algorytm naiwny wyszukiwania wzorca w łańcuchu tekstowym](#algorytm-naiwny-wyszukiwania-wzorca-w-łańcuchu-tekstowym)
 - [Algorytm wyznaczania liczby elementów na liście jednokierunkowej](#algorytm-wyznaczania-liczby-elementów-na-liście-jednokierunkowej)
+
+## Algorytm sita Eratostenesa
+
+## Algorytm naiwny wyszukiwania wzorca w łańcuchu tekstowym
+
+## Algorytm wyznaczania liczby elementów na liście jednokierunkowej
