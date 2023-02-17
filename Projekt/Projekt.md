@@ -162,4 +162,4 @@ Algorytm działa poprzez porównywanie każdego podciągu o długości wzorca w 
 Algorytm może być używany do wyszukiwania szukanego ciągu znaków w dłuższym tekście, np. wyszukiwanie wystąpień słów kluczowych w tekście dokumentu, wyszukiwanie numerów telefonów lub adresów e-mail w tekście, itp.
 
 ## Program
-[Algorytm naiwny wyszukiwania wzorca w łańcuchu tekstowym](/Przykłady%20kodu/naiveSearch.h)
+[Algorytm naiwny wyszukiwania wzorca w łańcuchu tekstowym](https://github.com/VValdemarJS/Algorytmy_i_struktury-danych/blob/main/Projekt/Przyk%C5%82ady%20kodu/naiveSearch.h)
