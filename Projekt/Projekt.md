@@ -78,7 +78,7 @@ Wynik: Liczby pierwsze w zakresie od `2` do `30` to: `2, 3, 5, 7, 11, 13, 17, 19
 
 ### Program
 
-[Sito Eratostenesa](/Przykłady%20kodu/eratosthenes.h)
+[Sito Eratostenesa](Projekt/Przykłady kodu/eratosthenes.h)
 
 ## Algorytm naiwny wyszukiwania wzorca w łańcuchu tekstowym
 ### Opis
