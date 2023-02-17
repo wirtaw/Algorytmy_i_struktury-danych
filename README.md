@@ -1,3 +1,3 @@
-# Algorytmy_i_struktury-danych
+# Algorytmy i struktury danych
 UWB
 
