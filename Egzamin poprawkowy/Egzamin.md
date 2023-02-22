@@ -14,7 +14,7 @@ dane wyjściowe: odpieczętowane schody;
 
 2.
 wejście: ilość schodek - n
-  Dopóki i <= n:
+  Dopóki i <= n: drukuj "\n"
     Dopóki n-i > 0 : drukuj " "
     Dopóki j <= i: drukuj "#"
 
