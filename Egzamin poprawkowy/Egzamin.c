@@ -10,13 +10,11 @@ void staircase(int n){
         {
           printf(" ");
         }
-		  for(j=1;j<=i;j++)
+		for(j=1;j<=i;j++)
 		  {
-   
-        
 		  	printf("#");
 		  }
-		  printf("\n");
+	  printf("\n");
     
 	}
   
@@ -25,7 +23,7 @@ void staircase(int n){
 int main()
 {
 	
-staircase(6);
+staircase(10);
   
 }
 			
